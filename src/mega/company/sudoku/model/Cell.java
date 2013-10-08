@@ -1,13 +1,13 @@
 package mega.company.sudoku.model;
 
 public class Cell {
-	protected int value;
+	private byte value;
 
-	public int getValue() {
+	public byte getValue() {
 		return value;
 	}
 	
-	public Cell(int _value) {
+	public Cell(byte _value) {
 		value = _value;
 	}
 }
