@@ -1,6 +1,8 @@
 package mega.company.sudoku.model;
 
-public class Field {
+import java.io.Serializable;
+
+public class Field implements Serializable {
 	private Cell[][] field;
 	private static final byte size = 9;
 	
