@@ -1,13 +1,15 @@
 package mega.company.sudoku.model;
 
-public class Cell {
-	protected int value;
+import java.io.Serializable;
 
-	public int getValue() {
+public class Cell implements Serializable {
+	private byte value;
+
+	public byte getValue() {
 		return value;
 	}
 	
-	public Cell(int _value) {
+	public Cell(byte _value) {
 		value = _value;
 	}
 }

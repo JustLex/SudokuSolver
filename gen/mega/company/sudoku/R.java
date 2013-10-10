@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.sudokusolver;
+package mega.company.sudoku;
 
 public final class R {
     public static final class attr {

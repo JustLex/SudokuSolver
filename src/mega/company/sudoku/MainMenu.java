@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.example.sudokusolver.R;
-
 public class MainMenu extends Activity implements OnClickListener{
 
 	@Override
