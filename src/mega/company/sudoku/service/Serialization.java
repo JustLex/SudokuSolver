@@ -39,15 +39,15 @@ public class Serialization {
 		}
 	}
 	
-	public void deserializeField(Field _f, String _filename) {
-		String filename = _filename;
+	public Field deserializeField(String _filename) {
+		Field temp = null;
 		FileInputStream fis = null;
 		ObjectInputStream ois = null;
 		
 		try {
-			fis = new FileInputStream(filename);
+			fis = new FileInputStream(_filename);
 			ois = new ObjectInputStream(fis);
-			_f = (Field)ois.readObject();
+			temp = (Field)ois.readObject();
 			ois.close();
 		}
 		catch (IOException ex) {
@@ -56,5 +56,7 @@ public class Serialization {
 		catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
 		}
+		
+		return temp;
 	}
 }
