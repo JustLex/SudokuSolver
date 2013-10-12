@@ -2,9 +2,10 @@
 <resources>
 
     <string name="app_name">SudokuSolver</string>
-    <string name="NewField">New field</string>
-    <string name="menu_settings">Settings</string>
-    <string name="Exit">Exit</string>
-    <string name="solve_field">Solve field</string>
+    
+    <string name="menu_settings">Settings</string><string name="button_new_field">New field</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_solve">Solve field</string>
+    <string name="button_clear">Clear field</string>
 
 </resources>
