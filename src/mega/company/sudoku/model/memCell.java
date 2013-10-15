@@ -9,6 +9,19 @@ public class memCell extends Cell {
 		checkField = new boolean[9];
 	}
 	
+	public memCell () {
+		super((byte) 0);
+		checkField = new boolean[9];
+	}
+	
+	public void setValue(byte value) {
+            this.value = value;
+    }
+	
+	public void setCheck(byte index, boolean value) {
+		this.checkField[index] = value;
+}
+	
 	public boolean check(byte _x) {
 		return (!checkField[_x]);
 	}
