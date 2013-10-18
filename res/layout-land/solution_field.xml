@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="top"
-    android:orientation="vertical" >
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
 
     <TableLayout
         android:id="@+id/layout_sudoku_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:background="@drawable/background_field" >
 
         <TableRow
             android:id="@+id/TableRow09"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -26,9 +28,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText81"
@@ -36,9 +40,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText79"
@@ -46,9 +52,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText78"
@@ -56,9 +64,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText77"
@@ -66,9 +76,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText76"
@@ -76,9 +88,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText75"
@@ -86,9 +100,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText74"
@@ -96,9 +112,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText80"
@@ -106,15 +124,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow07"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -125,9 +147,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText71"
@@ -135,9 +159,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText69"
@@ -145,9 +171,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText68"
@@ -155,9 +183,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText67"
@@ -165,9 +195,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText66"
@@ -175,9 +207,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText65"
@@ -185,9 +219,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText64"
@@ -195,9 +231,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText70"
@@ -205,15 +243,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow06"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -224,9 +266,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText62"
@@ -234,9 +278,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText60"
@@ -244,9 +290,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText59"
@@ -254,9 +302,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText58"
@@ -264,9 +314,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText57"
@@ -274,9 +326,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText56"
@@ -284,9 +338,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText55"
@@ -294,9 +350,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText61"
@@ -304,15 +362,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow05"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -323,9 +385,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText53"
@@ -333,9 +397,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText51"
@@ -343,9 +409,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText50"
@@ -353,9 +421,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText49"
@@ -363,9 +433,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText48"
@@ -373,9 +445,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText47"
@@ -383,9 +457,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText46"
@@ -393,9 +469,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText52"
@@ -403,15 +481,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow04"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -422,9 +504,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText44"
@@ -432,9 +516,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText42"
@@ -442,9 +528,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText41"
@@ -452,9 +540,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText40"
@@ -462,9 +552,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText39"
@@ -472,9 +564,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText38"
@@ -482,9 +576,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText37"
@@ -492,9 +588,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText43"
@@ -502,15 +600,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow03"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -521,9 +623,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText35"
@@ -531,9 +635,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText33"
@@ -541,9 +647,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText32"
@@ -551,9 +659,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText31"
@@ -561,9 +671,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText30"
@@ -571,9 +683,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText29"
@@ -581,9 +695,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText28"
@@ -591,9 +707,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText34"
@@ -601,15 +719,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow02"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -620,9 +742,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText26"
@@ -630,9 +754,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText24"
@@ -640,9 +766,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText23"
@@ -650,9 +778,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText22"
@@ -660,9 +790,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText21"
@@ -670,9 +802,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText20"
@@ -680,9 +814,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText19"
@@ -690,9 +826,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText25"
@@ -700,15 +838,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow01"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -719,9 +861,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText17"
@@ -729,9 +873,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText15"
@@ -739,9 +885,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText14"
@@ -749,9 +897,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText13"
@@ -759,9 +909,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText12"
@@ -769,9 +921,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText11"
@@ -779,9 +933,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText10"
@@ -789,9 +945,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText16"
@@ -799,15 +957,19 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
 
         <TableRow
             android:id="@+id/TableRow08"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
             android:minHeight="40dp"
             android:minWidth="40dp"
             android:showDividers="none" >
@@ -818,9 +980,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText07"
@@ -828,9 +992,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText06"
@@ -838,9 +1004,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText05"
@@ -848,9 +1016,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText04"
@@ -858,9 +1028,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText03"
@@ -868,9 +1040,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText02"
@@ -878,9 +1052,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
 
             <EditText
                 android:id="@+id/EditText01"
@@ -888,9 +1064,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" >
+
+                <requestFocus />
+            </EditText>
 
             <EditText
                 android:id="@+id/EditText72"
@@ -898,81 +1079,103 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center_horizontal"
                 android:inputType="none"
-                android:minHeight="40dp"
-                android:minWidth="20dp" />
+                android:minHeight="20dp"
+                android:minWidth="20dp"
+                android:textSize="@dimen/text_cell" />
         </TableRow>
     </TableLayout>
 
     <LinearLayout
         android:id="@+id/layout_keyboard"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center" >
+        android:gravity="center"
+        android:orientation="vertical" >
 
         <Button
             android:id="@+id/button_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
             android:layout_weight="1"
-            android:text="1" />
+            android:padding="0dp"
+            android:text="1"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="2" />
+            android:padding="0dp"
+            android:text="2"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="3" />
+            android:padding="0dp"
+            android:text="3"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="4" />
+            android:padding="0dp"
+            android:text="4"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="5" />
+            android:padding="0dp"
+            android:text="5"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="6" />
+            android:padding="0dp"
+            android:text="6"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="7" />
+            android:padding="0dp"
+            android:text="7"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="8" />
+            android:padding="0dp"
+            android:text="8"
+            android:textSize="@dimen/text_cell" />
 
         <Button
             android:id="@+id/button_9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="9" />
+            android:padding="0dp"
+            android:text="9"
+            android:textSize="@dimen/text_cell" />
+
     </LinearLayout>
 
 </LinearLayout>
