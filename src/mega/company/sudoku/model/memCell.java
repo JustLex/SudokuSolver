@@ -2,7 +2,7 @@ package mega.company.sudoku.model;
 
 public class memCell extends Cell {
 	
-	private boolean[] checkField;
+	private boolean[] checkField = new boolean[9];
 	
 	public memCell (byte _value) {
 		super(_value);
@@ -14,12 +14,12 @@ public class memCell extends Cell {
 		checkField = new boolean[9];
 	}
 	
-	public void setValue(byte value) {
-            this.value = value;
+	public void setValue(byte _value) {
+            this.value = _value;
     }
 	
-	public void setCheck(byte index, boolean value) {
-		this.checkField[index] = value;
+	public void setCheck(byte _index, boolean _value) {
+		this.checkField[_index] = _value;
 }
 	
 	public boolean check(byte _x) {

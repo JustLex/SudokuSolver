@@ -57,29 +57,36 @@ public class SolutionProcessor {
 	public boolean solve() {
 		for (byte i = 0; i < size; i++)
 			for (byte j = 0; j < size; j++) {
-				if (m[i][j].getValue() != 0) {
+				if (m[i][j] != null && m[i][j].getValue() != 0) {
+					for (byte l = 0; l < size; l++)
+						m[i][j].setCheck(l, true);
 					push(i, j);
 					make(i, j);
 				}
 
 			}
 
-		while (uk != un) {
-			byte tmp = 0;
-			for (byte i = 0; i < 9; i++) {
-				if (m[qx[un]][qy[un]].check(i)) {
-					tmp++;
-				}
-				if (tmp == 1) {
-					for (byte j = 0; j < 9; j++) {
-						
+		for (byte l = 0; l < 81; l++)
+			for (byte i = 0; i < 9; i++)
+				for (byte j = 0; j < 9; j++) {
+					if (m[i][j].getValue() != 0) continue;
+					byte tmp = 0;
+					for (byte p = 0; p < 9; p++)
+						if (m[i][j].check(p))
+							tmp++;
+					if (tmp == 1) {
+						for (byte p = 0; p < 9; p++) {
+							if (m[i][j].check(p)) {
+								tmp = (byte) (p+1);
+								break;
+							}
+						}
+						m[i][j].setValue((byte) (tmp));
+						make(i, j);
 					}
+					
 				}
-			}
-
-		}
-
-		return false;
+		return true;
 	}
 
 }
